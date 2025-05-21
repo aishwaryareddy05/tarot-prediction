@@ -60,7 +60,7 @@ pipeline = Pipeline([
 # Load the model
 @st.cache_resource
 def load_model():
-    return joblib.load('tarot_model.pkl')  # Make sure this path matches the location
+    return joblib.load('tarot_model.pkl')  
 
 model = load_model()
 
@@ -341,7 +341,6 @@ def main():
         - **Random Card**: Let the universe choose the most appropriate card for your question
         - **Specific Card**: Select a particular card you'd like insight from
     """)
-    # Your UI setup and the rest of the application remains the same...
 
 if __name__ == "__main__":
     main()
