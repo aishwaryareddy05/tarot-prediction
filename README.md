@@ -108,6 +108,6 @@ tarot-app/
 - Multi-language support
 
 ## Screenshot
-![App Screenshot](app-screenshot.png)
+![App Screenshot](app.png)
 
 *Note: For actual screenshot, you would need to add an image file to your repository*
